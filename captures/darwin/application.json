@@ -1,0 +1,157 @@
+{
+  "role": "application",
+  "name": "python",
+  "value": null,
+  "children": [
+    {
+      "role": "window",
+      "name": "xa11y Qt Table Reproducer",
+      "value": null,
+      "children": [
+        {
+          "role": "static_text",
+          "name": "All controls use Qt's built-in accessibility implementation. Each data item below is a table cell, not a row container.",
+          "value": "All controls use Qt's built-in accessibility implementation. Each data item below is a table cell, not a row container.",
+          "children": []
+        },
+        {
+          "role": "group",
+          "name": "QTableWidget",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableWidget example",
+              "value": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "role": "group",
+          "name": "QTableView + QStandardItemModel",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableView example",
+              "value": null,
+              "children": [
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "group",
+          "name": "QTableView with visual headers hidden",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableView no headers",
+              "value": null,
+              "children": [
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "A populated native Qt table used to compare xa11y role classification.",
+                  "value": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

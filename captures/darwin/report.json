@@ -1,0 +1,3091 @@
+{
+  "platform": {
+    "system": "Darwin",
+    "release": "24.6.0",
+    "python": "3.14.0",
+    "pyside6": "6.11.1",
+    "xa11y": "0.11.0"
+  },
+  "tables": [
+    {
+      "name": "QTableWidget example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [],
+      "missing_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "unexpected_headers": [],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableWidget example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+        "bounds": {
+          "x": 27,
+          "y": 128,
+          "width": 846,
+          "height": 221
+        },
+        "actions": [
+          "raise",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "AXPosition": {
+            "x": 27.0,
+            "y": 128.0
+          },
+          "AXFocused": false,
+          "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+          "AXEnabled": true,
+          "AXTitle": "QTableWidget example",
+          "AXSize": {
+            "height": 221.0,
+            "width": 846.0
+          },
+          "ax_role": "AXTable",
+          "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+        },
+        "children": [
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 150,
+              "width": 290,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXFocused": false,
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_role": "AXRow",
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 71.0,
+                "y": 150.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 290.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "W0C0: Alpha",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 71,
+                  "y": 150,
+                  "width": 97,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": true,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXDescription": "",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 150.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXFocused": true,
+                  "AXTitle": "W0C0: Alpha",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 97.0
+                  },
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W0C1: 10",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 169,
+                  "y": 150,
+                  "width": 69,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 169.0,
+                    "y": 150.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 69.0
+                  },
+                  "AXEnabled": true,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXDescription": "",
+                  "AXTitle": "W0C1: 10",
+                  "AXFocused": false
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W0C2: first row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 239,
+                  "y": 150,
+                  "width": 122,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXPosition": {
+                    "x": 239.0,
+                    "y": 150.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 122.0
+                  },
+                  "AXTitle": "W0C2: first row",
+                  "AXFocused": false,
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 180,
+              "width": 290,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXPosition": {
+                "x": 71.0,
+                "y": 180.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 290.0
+              },
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true,
+              "ax_role": "AXRow",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "AXFocused": false
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "W1C0: Bravo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 71,
+                  "y": 180,
+                  "width": 97,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "W1C0: Bravo",
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 180.0
+                  },
+                  "AXEnabled": true,
+                  "AXDescription": "",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 97.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W1C1: 20",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 169,
+                  "y": 180,
+                  "width": 69,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 69.0
+                  },
+                  "AXDescription": "",
+                  "AXTitle": "W1C1: 20",
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 169.0,
+                    "y": 180.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W1C2: second row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 239,
+                  "y": 180,
+                  "width": 122,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 122.0
+                  },
+                  "AXTitle": "W1C2: second row",
+                  "AXEnabled": true,
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 239.0,
+                    "y": 180.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 210,
+              "width": 290,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "ax_role": "AXRow",
+              "AXFocused": false,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 71.0,
+                "y": 210.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 290.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "W2C0: Charlie",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 71,
+                  "y": 210,
+                  "width": 97,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 210.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXTitle": "W2C0: Charlie",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 97.0
+                  },
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W2C1: 30",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 169,
+                  "y": 210,
+                  "width": 69,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 69.0
+                  },
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 169.0,
+                    "y": 210.0
+                  },
+                  "AXTitle": "W2C1: 30",
+                  "AXFocused": false,
+                  "ax_role": "AXCell",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W2C2: third row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 239,
+                  "y": 210,
+                  "width": 122,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXPosition": {
+                    "x": 239.0,
+                    "y": 210.0
+                  },
+                  "AXTitle": "W2C2: third row",
+                  "ax_role": "AXCell",
+                  "AXEnabled": true,
+                  "AXDescription": "",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 122.0
+                  },
+                  "AXFocused": false
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 240,
+              "width": 290,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXFocused": false,
+              "AXSize": {
+                "height": 29.0,
+                "width": 290.0
+              },
+              "ax_role": "AXRow",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "AXEnabled": true,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXPosition": {
+                "x": 71.0,
+                "y": 240.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "W3C0: Delta",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 71,
+                  "y": 240,
+                  "width": 97,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 97.0
+                  },
+                  "AXEnabled": true,
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 240.0
+                  },
+                  "AXTitle": "W3C0: Delta"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W3C1: 40",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 169,
+                  "y": 240,
+                  "width": 69,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "W3C1: 40",
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 69.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 169.0,
+                    "y": 240.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W3C2: fourth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 239,
+                  "y": 240,
+                  "width": 122,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 122.0
+                  },
+                  "AXTitle": "W3C2: fourth row",
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 239.0,
+                    "y": 240.0
+                  },
+                  "AXFocused": false,
+                  "ax_role": "AXCell",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 270,
+              "width": 290,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXFocused": false,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_role": "AXRow",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "AXPosition": {
+                "x": 71.0,
+                "y": 270.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 290.0
+              },
+              "AXEnabled": true
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "W4C0: Echo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 71,
+                  "y": 270,
+                  "width": 97,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 97.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXDescription": "",
+                  "AXTitle": "W4C0: Echo",
+                  "AXEnabled": true,
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 270.0
+                  },
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W4C1: 50",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 169,
+                  "y": 270,
+                  "width": 69,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXDescription": "",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 69.0
+                  },
+                  "AXEnabled": true,
+                  "AXTitle": "W4C1: 50",
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 169.0,
+                    "y": 270.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "W4C2: fifth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                "bounds": {
+                  "x": 239,
+                  "y": 270,
+                  "width": 122,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 239.0,
+                    "y": 270.0
+                  },
+                  "AXTitle": "W4C2: fifth row",
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 122.0
+                  },
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 71,
+              "y": 150,
+              "width": 97,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_role": "AXColumn",
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXPosition": {
+                "x": 71.0,
+                "y": 150.0
+              },
+              "AXSize": {
+                "height": 149.0,
+                "width": 97.0
+              },
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 169,
+              "y": 150,
+              "width": 69,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXFocused": false,
+              "ax_role": "AXColumn",
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 169.0,
+                "y": 150.0
+              },
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXSize": {
+                "height": 149.0,
+                "width": 69.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 239,
+              "y": 150,
+              "width": 122,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXPosition": {
+                "x": 239.0,
+                "y": 150.0
+              },
+              "AXSize": {
+                "height": 149.0,
+                "width": 122.0
+              },
+              "ax_role": "AXColumn",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification."
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 8
+      }
+    },
+    {
+      "name": "QTableView example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [],
+      "missing_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "unexpected_headers": [],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableView example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+        "bounds": {
+          "x": 27,
+          "y": 398,
+          "width": 846,
+          "height": 221
+        },
+        "actions": [
+          "raise",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+          "AXEnabled": true,
+          "ax_role": "AXTable",
+          "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+          "AXPosition": {
+            "x": 27.0,
+            "y": 398.0
+          },
+          "AXSize": {
+            "height": 221.0,
+            "width": 846.0
+          },
+          "AXFocused": false,
+          "AXTitle": "QTableView example"
+        },
+        "children": [
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 420,
+              "width": 279,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXPosition": {
+                "x": 71.0,
+                "y": 420.0
+              },
+              "ax_role": "AXRow",
+              "AXFocused": false,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXEnabled": true,
+              "AXSize": {
+                "height": 29.0,
+                "width": 279.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "V0C0: Alpha",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 71,
+                  "y": 420,
+                  "width": 93,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 93.0
+                  },
+                  "AXTitle": "V0C0: Alpha",
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 420.0
+                  },
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V0C1: 10",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 165,
+                  "y": 420,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXFocused": false,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXTitle": "V0C1: 10",
+                  "ax_role": "AXCell",
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 165.0,
+                    "y": 420.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V0C2: first row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 232,
+                  "y": 420,
+                  "width": 118,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "V0C2: first row",
+                  "AXPosition": {
+                    "x": 232.0,
+                    "y": 420.0
+                  },
+                  "AXDescription": "",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 118.0
+                  },
+                  "AXEnabled": true,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell",
+                  "AXFocused": false
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 450,
+              "width": 279,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXSize": {
+                "height": 29.0,
+                "width": 279.0
+              },
+              "AXEnabled": true,
+              "AXFocused": false,
+              "ax_role": "AXRow",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXPosition": {
+                "x": 71.0,
+                "y": 450.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "V1C0: Bravo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 71,
+                  "y": 450,
+                  "width": 93,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXFocused": false,
+                  "AXTitle": "V1C0: Bravo",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXEnabled": true,
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 450.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 93.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V1C1: 20",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 165,
+                  "y": 450,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXTitle": "V1C1: 20",
+                  "AXFocused": false,
+                  "AXDescription": "",
+                  "AXEnabled": true,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXPosition": {
+                    "x": 165.0,
+                    "y": 450.0
+                  },
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V1C2: second row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 232,
+                  "y": 450,
+                  "width": 118,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "V1C2: second row",
+                  "AXPosition": {
+                    "x": 232.0,
+                    "y": 450.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXDescription": "",
+                  "AXEnabled": true,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 118.0
+                  },
+                  "AXFocused": false
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 480,
+              "width": 279,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXSize": {
+                "height": 29.0,
+                "width": 279.0
+              },
+              "AXEnabled": true,
+              "ax_role": "AXRow",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXPosition": {
+                "x": 71.0,
+                "y": 480.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXFocused": false
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "V2C0: Charlie",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 71,
+                  "y": 480,
+                  "width": 93,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 93.0
+                  },
+                  "AXDescription": "",
+                  "AXTitle": "V2C0: Charlie",
+                  "ax_role": "AXCell",
+                  "AXEnabled": true,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 480.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V2C1: 30",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 165,
+                  "y": 480,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "V2C1: 30",
+                  "AXPosition": {
+                    "x": 165.0,
+                    "y": 480.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "ax_role": "AXCell",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V2C2: third row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 232,
+                  "y": 480,
+                  "width": 118,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXPosition": {
+                    "x": 232.0,
+                    "y": 480.0
+                  },
+                  "ax_role": "AXCell",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 118.0
+                  },
+                  "AXEnabled": true,
+                  "AXFocused": false,
+                  "AXTitle": "V2C2: third row",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 510,
+              "width": 279,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_role": "AXRow",
+              "AXFocused": false,
+              "AXPosition": {
+                "x": 71.0,
+                "y": 510.0
+              },
+              "AXEnabled": true,
+              "AXSize": {
+                "height": 29.0,
+                "width": 279.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification."
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "V3C0: Delta",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 71,
+                  "y": 510,
+                  "width": 93,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 510.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 93.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXTitle": "V3C0: Delta",
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXFocused": false
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V3C1: 40",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 165,
+                  "y": 510,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "V3C1: 40",
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 165.0,
+                    "y": 510.0
+                  },
+                  "ax_role": "AXCell",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V3C2: fourth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 232,
+                  "y": 510,
+                  "width": 118,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_role": "AXCell",
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 232.0,
+                    "y": 510.0
+                  },
+                  "AXDescription": "",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 118.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXFocused": false,
+                  "AXTitle": "V3C2: fourth row"
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 540,
+              "width": 279,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXEnabled": true,
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXPosition": {
+                "x": 71.0,
+                "y": 540.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 279.0
+              },
+              "ax_role": "AXRow",
+              "AXFocused": false,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification."
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "V4C0: Echo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 71,
+                  "y": 540,
+                  "width": 93,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXPosition": {
+                    "x": 71.0,
+                    "y": 540.0
+                  },
+                  "AXEnabled": true,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 93.0
+                  },
+                  "AXFocused": false,
+                  "AXDescription": "",
+                  "AXTitle": "V4C0: Echo",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V4C1: 50",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 165,
+                  "y": 540,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXEnabled": true,
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXTitle": "V4C1: 50",
+                  "AXDescription": "",
+                  "ax_role": "AXCell",
+                  "AXPosition": {
+                    "x": 165.0,
+                    "y": 540.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "V4C2: fifth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 232,
+                  "y": 540,
+                  "width": 118,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXPosition": {
+                    "x": 232.0,
+                    "y": 540.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 118.0
+                  },
+                  "AXTitle": "V4C2: fifth row"
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 71,
+              "y": 420,
+              "width": 93,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXFocused": false,
+              "AXSize": {
+                "height": 149.0,
+                "width": 93.0
+              },
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 71.0,
+                "y": 420.0
+              },
+              "ax_role": "AXColumn"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 165,
+              "y": 420,
+              "width": 66,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXSize": {
+                "height": 149.0,
+                "width": 66.0
+              },
+              "AXPosition": {
+                "x": 165.0,
+                "y": 420.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "ax_role": "AXColumn"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 232,
+              "y": 420,
+              "width": 118,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_role": "AXColumn",
+              "AXPosition": {
+                "x": 232.0,
+                "y": 420.0
+              },
+              "AXEnabled": true,
+              "AXSize": {
+                "height": 149.0,
+                "width": 118.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXFocused": false
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 8
+      }
+    },
+    {
+      "name": "QTableView no headers",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [],
+      "found_headers": [],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableView no headers",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+        "bounds": {
+          "x": 27,
+          "y": 668,
+          "width": 846,
+          "height": 221
+        },
+        "actions": [
+          "raise",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "ax_role": "AXTable",
+          "AXSize": {
+            "height": 221.0,
+            "width": 846.0
+          },
+          "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+          "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+          "AXTitle": "QTableView no headers",
+          "AXPosition": {
+            "x": 27.0,
+            "y": 668.0
+          },
+          "AXEnabled": true,
+          "AXFocused": false
+        },
+        "children": [
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 669,
+              "width": 281,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "ax_role": "AXRow",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXSize": {
+                "height": 29.0,
+                "width": 281.0
+              },
+              "AXPosition": {
+                "x": 28.0,
+                "y": 669.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "N0C0: Alpha",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 28,
+                  "y": 669,
+                  "width": 94,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXPosition": {
+                    "x": 28.0,
+                    "y": 669.0
+                  },
+                  "AXEnabled": true,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 94.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXTitle": "N0C0: Alpha"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N0C1: 10",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 123,
+                  "y": 669,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXTitle": "N0C1: 10",
+                  "AXPosition": {
+                    "x": 123.0,
+                    "y": 669.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXDescription": "",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell",
+                  "AXFocused": false,
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N0C2: first row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 190,
+                  "y": 669,
+                  "width": 119,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_role": "AXCell",
+                  "AXEnabled": true,
+                  "AXFocused": false,
+                  "AXTitle": "N0C2: first row",
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 190.0,
+                    "y": 669.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 119.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 699,
+              "width": 281,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXSize": {
+                "height": 29.0,
+                "width": 281.0
+              },
+              "ax_role": "AXRow",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXPosition": {
+                "x": 28.0,
+                "y": 699.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "N1C0: Bravo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 28,
+                  "y": 699,
+                  "width": 94,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 28.0,
+                    "y": 699.0
+                  },
+                  "AXFocused": false,
+                  "AXTitle": "N1C0: Bravo",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 94.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N1C1: 20",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 123,
+                  "y": 699,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXDescription": "",
+                  "AXEnabled": true,
+                  "ax_role": "AXCell",
+                  "AXTitle": "N1C1: 20",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 123.0,
+                    "y": 699.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N1C2: second row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 190,
+                  "y": 699,
+                  "width": 119,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 119.0
+                  },
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 190.0,
+                    "y": 699.0
+                  },
+                  "AXFocused": false,
+                  "ax_role": "AXCell",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXTitle": "N1C2: second row",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 729,
+              "width": 281,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXEnabled": true,
+              "AXFocused": false,
+              "AXPosition": {
+                "x": 28.0,
+                "y": 729.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 281.0
+              },
+              "ax_role": "AXRow",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification."
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "N2C0: Charlie",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 28,
+                  "y": 729,
+                  "width": 94,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXPosition": {
+                    "x": 28.0,
+                    "y": 729.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXTitle": "N2C0: Charlie",
+                  "AXDescription": "",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXFocused": false,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 94.0
+                  },
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N2C1: 30",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 123,
+                  "y": 729,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXPosition": {
+                    "x": 123.0,
+                    "y": 729.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXDescription": "",
+                  "AXTitle": "N2C1: 30",
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N2C2: third row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 190,
+                  "y": 729,
+                  "width": 119,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXEnabled": true,
+                  "AXTitle": "N2C2: third row",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 119.0
+                  },
+                  "AXDescription": "",
+                  "AXFocused": false,
+                  "AXPosition": {
+                    "x": 190.0,
+                    "y": 729.0
+                  }
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 759,
+              "width": 281,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "AXFocused": false,
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 28.0,
+                "y": 759.0
+              },
+              "ax_role": "AXRow",
+              "AXSize": {
+                "height": 29.0,
+                "width": 281.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "N3C0: Delta",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 28,
+                  "y": 759,
+                  "width": 94,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 94.0
+                  },
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 28.0,
+                    "y": 759.0
+                  },
+                  "ax_role": "AXCell",
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXDescription": "",
+                  "AXTitle": "N3C0: Delta"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N3C1: 40",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 123,
+                  "y": 759,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "AXTitle": "N3C1: 40",
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXEnabled": true,
+                  "AXPosition": {
+                    "x": 123.0,
+                    "y": 759.0
+                  },
+                  "AXFocused": false,
+                  "AXDescription": "",
+                  "ax_role": "AXCell"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N3C2: fourth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 190,
+                  "y": 759,
+                  "width": 119,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXTitle": "N3C2: fourth row",
+                  "AXPosition": {
+                    "x": 190.0,
+                    "y": 759.0
+                  },
+                  "AXEnabled": true,
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 119.0
+                  },
+                  "AXFocused": false,
+                  "ax_role": "AXCell",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "table_row",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 789,
+              "width": 281,
+              "height": 29
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXEnabled": true,
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXFocused": false,
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "ax_role": "AXRow",
+              "AXPosition": {
+                "x": 28.0,
+                "y": 789.0
+              },
+              "AXSize": {
+                "height": 29.0,
+                "width": 281.0
+              }
+            },
+            "children": [
+              {
+                "role": "table_cell",
+                "name": "N4C0: Echo",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 28,
+                  "y": 789,
+                  "width": 94,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "ax_role": "AXCell",
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 94.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXPosition": {
+                    "x": 28.0,
+                    "y": 789.0
+                  },
+                  "AXFocused": false,
+                  "AXEnabled": true,
+                  "AXTitle": "N4C0: Echo",
+                  "AXDescription": ""
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N4C1: 50",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 123,
+                  "y": 789,
+                  "width": 66,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 66.0
+                  },
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "AXEnabled": true,
+                  "ax_role": "AXCell",
+                  "AXFocused": false,
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 123.0,
+                    "y": 789.0
+                  },
+                  "AXTitle": "N4C1: 50"
+                },
+                "children": [],
+                "child_count": 0
+              },
+              {
+                "role": "table_cell",
+                "name": "N4C2: fifth row",
+                "value": null,
+                "description": "",
+                "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                "bounds": {
+                  "x": 190,
+                  "y": 789,
+                  "width": 119,
+                  "height": 29
+                },
+                "actions": [
+                  "press",
+                  "focus"
+                ],
+                "states": {
+                  "enabled": true,
+                  "visible": true,
+                  "focused": false,
+                  "selected": false,
+                  "focusable": true
+                },
+                "raw": {
+                  "AXDescription": "",
+                  "AXPosition": {
+                    "x": 190.0,
+                    "y": 789.0
+                  },
+                  "AXSize": {
+                    "height": 29.0,
+                    "width": 119.0
+                  },
+                  "AXFocused": false,
+                  "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+                  "ax_role": "AXCell",
+                  "AXTitle": "N4C2: fifth row",
+                  "AXEnabled": true
+                },
+                "children": [],
+                "child_count": 0
+              }
+            ],
+            "child_count": 3
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 28,
+              "y": 669,
+              "width": 94,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXEnabled": true,
+              "AXSize": {
+                "height": 149.0,
+                "width": 94.0
+              },
+              "AXPosition": {
+                "x": 28.0,
+                "y": 669.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "ax_role": "AXColumn",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXFocused": false
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 123,
+              "y": 669,
+              "width": 66,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXFocused": false,
+              "AXPosition": {
+                "x": 123.0,
+                "y": 669.0
+              },
+              "AXSize": {
+                "height": 149.0,
+                "width": 66.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "ax_role": "AXColumn",
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "AXEnabled": true
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "A populated native Qt table used to compare xa11y role classification.",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 190,
+              "y": 669,
+              "width": 119,
+              "height": 149
+            },
+            "actions": [
+              "raise",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "AXDescription": "A populated native Qt table used to compare xa11y role classification.",
+              "ax_role": "AXColumn",
+              "AXFocused": false,
+              "AXEnabled": true,
+              "AXPosition": {
+                "x": 190.0,
+                "y": 669.0
+              },
+              "AXSize": {
+                "height": 149.0,
+                "width": 119.0
+              },
+              "ax_identifier": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 8
+      }
+    }
+  ],
+  "failures": [
+    "QTableWidget example: missing headers ['Name', 'Value', 'Notes']",
+    "QTableView example: missing headers ['Name', 'Value', 'Notes']"
+  ]
+}
