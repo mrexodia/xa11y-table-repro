@@ -14,6 +14,8 @@ from typing import Any
 
 import xa11y
 
+from native_probes import probe_native_tables
+
 PROJECT_DIR = Path(__file__).resolve().parent
 HEADERS = ("Name", "Value", "Notes")
 ROWS = (
@@ -90,6 +92,12 @@ def flatten(root: dict[str, Any]) -> list[dict[str, Any]]:
     for child in root.get("children", []):
         result.extend(flatten(child))
     return result
+
+
+def write_json(path: Path, value: Any) -> None:
+    path.write_bytes(
+        (json.dumps(value, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+    )
 
 
 def stop_process(process: subprocess.Popen[bytes], app_pid: int) -> None:
@@ -235,15 +243,12 @@ def main() -> int:
             print(f"Known cell roles: {dict(role_counts)}")
             print(f"Direct children: {tree.get('child_count', 0)}")
             for cell in cells:
-                print(
-                    f"  {cell['name']!r}: role={cell['role']} "
-                    f"raw={cell['raw']}"
-                )
+                print(f"  {cell['name']!r}: role={cell['role']} raw={cell['raw']}")
 
             if missing_cells:
                 failures.append(f"{table_name}: missing cells {missing_cells}")
             if missing_headers:
-                failures.append(f"{table_name}: missing headers {missing_headers}")
+                print(f"Expected visible header names not exposed: {missing_headers}")
             if unexpected_headers:
                 print(
                     f"Visible headers despite headers being hidden: "
@@ -273,6 +278,35 @@ def main() -> int:
                     "tree": tree,
                 }
             )
+
+        print("\n=== Native table relationship probe ===")
+        try:
+            native_probe = probe_native_tables(
+                pid,
+                TABLE_PREFIXES.keys(),
+                EXPECTED_CELL_NAMES,
+                HEADERS,
+            )
+            if native_probe.get("supported"):
+                for table in native_probe.get("tables", []):
+                    print(
+                        f"{table['name']}: "
+                        f"{json.dumps(table.get('determination', {}), sort_keys=True)}"
+                    )
+            else:
+                print(f"Not required: {native_probe.get('reason')}")
+            failures.extend(
+                f"Native relationship probe: {failure}"
+                for failure in native_probe.get("failures", [])
+            )
+        except Exception as exc:
+            native_probe = {
+                "platform": sys.platform,
+                "supported": True,
+                "error": str(exc),
+            }
+            failures.append(f"Native relationship probe failed: {exc}")
+        write_json(args.out / "native-probe.json", native_probe)
 
         if process is not None and process.poll() is not None:
             failures.append(f"Qt app exited unexpectedly with {process.returncode}")

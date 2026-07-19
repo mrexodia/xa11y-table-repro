@@ -1,0 +1,5 @@
+{
+  "platform": "linux",
+  "supported": false,
+  "reason": "The normalized AT-SPI capture already identifies table cells and headers."
+}

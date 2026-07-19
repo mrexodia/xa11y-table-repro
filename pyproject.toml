@@ -5,11 +5,13 @@ description = "Cross-platform xa11y classification reproducer for native Qt tabl
 requires-python = ">=3.10"
 dependencies = [
     "PySide6==6.11.1",
+    "pyobjc-framework-Quartz>=11.1; sys_platform == 'darwin'",
+    "pywinauto>=0.6.9; sys_platform == 'win32'",
     "xa11y==0.11.0",
 ]
 
 [tool.setuptools]
-py-modules = ["qt_table_app", "dump_accessibility"]
+py-modules = ["qt_table_app", "dump_accessibility", "native_probes"]
 
 [project.scripts]
 xa11y-table-app = "qt_table_app:main"

@@ -24,10 +24,9 @@ cd xa11y-table
 uv sync
 ```
 
-Dependencies are pinned to:
-
-- PySide6 6.11.1
-- xa11y 0.11.0
+The application and normalized probe are pinned to PySide6 6.11.1 and xa11y
+0.11.0. Platform markers also install pywinauto on Windows and PyObjC's Quartz
+bindings on macOS for the native relationship probes.
 
 ## Run the reproducer
 
@@ -47,6 +46,9 @@ Each platform directory contains:
 - One text tree for each table.
 - `report.json`: normalized roles, names, states, bounds, and native `raw`
   properties for every element.
+- `native-probe.json`: relationships queried directly through UIA or AX which
+  xa11y's normalized model omits, or a note that no supplementary Linux probe
+  is needed.
 - Qt application stdout/stderr logs.
 
 To turn the expected cross-platform role into an assertion:
@@ -55,9 +57,10 @@ To turn the expected cross-platform role into an assertion:
 uv run xa11y-table-dump --expect-table-cells
 ```
 
-That command should succeed when all 45 known data cells normalize as
-`table_cell`. With xa11y 0.11.0 it is expected to fail on Windows because the
-UIA backend currently maps every `DataItem` to `table_row`.
+That command succeeds when all 45 known data cells normalize as `table_cell`.
+With xa11y 0.11.0 it is expected to fail on Windows because the UIA backend
+currently maps every `DataItem` to `table_row`. Missing column-header names are
+recorded as platform observations but do not affect this cell-role assertion.
 
 You can also launch or attach manually:
 
@@ -102,14 +105,59 @@ Qt's platform bridges expose the same native Qt cells differently:
 
 - Windows: `QAccessible::Cell` becomes UIA `DataItem`. xa11y 0.11.0 maps the
   control type unconditionally to `table_row`.
-- Linux: the corresponding AT-SPI role maps to `table_cell`.
-- macOS: the corresponding `AXCell` maps to `table_cell`.
+- Linux: the corresponding AT-SPI role maps directly to `table_cell`.
+- macOS: Qt synthesizes direct `AXRow` and `AXColumn` children for the table,
+  with `AXCell`/`table_cell` objects nested under each row.
 
-A UIA `DataItem` is not necessarily a row. Qt's cell also implements GridItem
-and TableItem patterns with concrete row/column and header relationships. A
-cross-platform normalization should therefore use those patterns to distinguish
-cell DataItems from actual row containers rather than relying on control type
-alone.
+A UIA `DataItem` is not necessarily a row. The direct UIA probe verifies that
+all 45 Qt cells implement both GridItem and TableItem, report the expected
+zero-based row/column, have 1x1 spans, identify the table as their containing
+grid and parent, and return the matching column header. A cross-platform
+normalization should therefore use those patterns to distinguish cell DataItems
+from actual row containers rather than relying on control type alone.
+
+The macOS probe queries `AXUIElementCopyAttributeNames()` and `AXHeader` on the
+`AXTable` and every `AXColumn`, then records the returned header object's role,
+title, value, description, identifier, and children. This distinguishes a
+missing Qt relationship from a relationship that xa11y simply does not query.
+It requires a fresh capture on a permitted macOS host before that boundary can
+be assigned conclusively.
+
+## xa11y implementation guidance
+
+### Windows DataItem normalization
+
+xa11y 0.11.0's UIA backend currently maps `UIA_DataItemControlTypeId` directly
+to `Role::TableRow` in `xa11y-windows/src/uia.rs`'s
+`map_uia_control_type()`. The native capture demonstrates that Qt's DataItems
+are cells, not row containers. A targeted implementation can add
+`UIA_IsTableItemPatternAvailablePropertyId` to `BATCH_PROPERTIES`, then refine a
+DataItem with that cached property set to `Role::TableCell` in
+`build_snapshot_data()`. DataItems without TableItem remain `Role::TableRow`.
+The regression tests should cover both values rather than replacing one
+unconditional control-type mapping with another. GridItem's row, column,
+spans, and containing grid provide additional fixture evidence, while
+TableItem and its column-header association are the cell-specific signal.
+
+### macOS header extraction
+
+xa11y currently walks `AXChildren` but does not preserve an `AXHeader`
+relationship in its normalized table model. Use `native-probe.json` from a
+macOS run to decide the fix: follow and name the returned AX header when the
+relationship exists, or report the result upstream to Qt when the direct API
+returns `kAXErrorAttributeUnsupported` or no value. Keep visible-header
+observations separate from the 45-cell role assertion.
+
+### macOS identifiers are stable but not unique
+
+The existing macOS snapshots show that all 24 elements in each Qt table subtree
+(the table, five synthesized rows, three synthesized columns, and 15 cells)
+share the table's `AXIdentifier`. Qt does this intentionally for synthesized
+table elements, and xa11y copies `AXIdentifier` to `stable_id`. xa11y's contract
+describes that value as stable for the same element, not globally unique, so
+this is not by itself a separate role-normalization defect. Consumers must not
+use `stable_id` alone as a subtree key. The native macOS probe records identifier
+cardinality explicitly so a future contract change has concrete fixture data.
 
 ## Observed results
 
@@ -119,8 +167,16 @@ Local PySide6 6.11.1 / xa11y 0.11.0 captures currently show:
 | --- | ---: | --- |
 | Windows UIA | 45/45 | `table_row` |
 | Linux AT-SPI2 | 45/45 | `table_cell` |
+| macOS AX | 45/45 | `table_cell` nested under `table_row` |
 
-The no-header case also exposes a platform difference: Windows omits the three
-hidden column-header names from xa11y's tree, while Linux AT-SPI2 still returns
-`Name`, `Value`, and `Notes`. The reproducer records this separately from the
-cell-role assertion so it can be evaluated on macOS as well.
+Header exposure also differs:
+
+- Windows's normalized tree exposes the three visible headers and omits them
+  when visually hidden. UIA TablePattern/TableItem still return the correct
+  semantic column headers in both cases.
+- Linux exposes `Name`, `Value`, and `Notes` even for the headerless view.
+- macOS exposes three `AXColumn` objects for every table, but xa11y's current
+  snapshots contain no header names for them, including when visual headers are
+  present.
+
+The reproducer records header behavior separately from the cell-role assertion.
