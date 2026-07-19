@@ -1,0 +1,484 @@
+{
+  "role": "window",
+  "name": "xa11y Qt Table Reproducer",
+  "value": null,
+  "children": [
+    {
+      "role": "group",
+      "name": null,
+      "value": "xa11y Qt Table Reproducer",
+      "children": [
+        {
+          "role": "menu_bar",
+          "name": "System",
+          "value": null,
+          "children": [
+            {
+              "role": "menu_item",
+              "name": "System",
+              "value": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Minimise",
+          "value": null,
+          "children": []
+        },
+        {
+          "role": "button",
+          "name": "Maximise",
+          "value": null,
+          "children": []
+        },
+        {
+          "role": "button",
+          "name": "Close",
+          "value": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "role": "group",
+      "name": null,
+      "value": null,
+      "children": [
+        {
+          "role": "static_text",
+          "name": "All controls use Qt's built-in accessibility implementation. Each data item below is a table cell, not a row container.",
+          "value": null,
+          "children": []
+        },
+        {
+          "role": "group",
+          "name": "QTableWidget",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableWidget example",
+              "value": null,
+              "children": [
+                {
+                  "role": "group",
+                  "name": null,
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Name",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Value",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Notes",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 0",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W0C0: Alpha",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W0C1: 10",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W0C2: first row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 1",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W1C0: Bravo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W1C1: 20",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W1C2: second row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 2",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W2C0: Charlie",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W2C1: 30",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W2C2: third row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 3",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W3C0: Delta",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W3C1: 40",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W3C2: fourth row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 4",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W4C0: Echo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W4C1: 50",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "W4C2: fifth row",
+                  "value": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "group",
+          "name": "QTableView + QStandardItemModel",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableView example",
+              "value": null,
+              "children": [
+                {
+                  "role": "group",
+                  "name": null,
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Name",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Value",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Notes",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 0",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V0C0: Alpha",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V0C1: 10",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V0C2: first row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 1",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V1C0: Bravo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V1C1: 20",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V1C2: second row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 2",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V2C0: Charlie",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V2C1: 30",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V2C2: third row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 3",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V3C0: Delta",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V3C1: 40",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V3C2: fourth row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "group",
+                  "name": "Row 4",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V4C0: Echo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V4C1: 50",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "V4C2: fifth row",
+                  "value": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "group",
+          "name": "QTableView with visual headers hidden",
+          "value": null,
+          "children": [
+            {
+              "role": "table",
+              "name": "QTableView no headers",
+              "value": null,
+              "children": [
+                {
+                  "role": "group",
+                  "name": null,
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N0C0: Alpha",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N0C1: 10",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N0C2: first row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N1C0: Bravo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N1C1: 20",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N1C2: second row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N2C0: Charlie",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N2C1: 30",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N2C2: third row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N3C0: Delta",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N3C1: 40",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N3C2: fourth row",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N4C0: Echo",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N4C1: 50",
+                  "value": null,
+                  "children": []
+                },
+                {
+                  "role": "table_row",
+                  "name": "N4C2: fifth row",
+                  "value": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

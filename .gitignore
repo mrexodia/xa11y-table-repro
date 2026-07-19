@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+
+# Curated accessibility captures are versioned. Runtime-only files are not.
+captures/*/qt-app.pid
+captures/*/*.log
+captures/*-assert/
+captures/assert-output.txt

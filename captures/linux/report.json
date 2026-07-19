@@ -1,0 +1,2201 @@
+{
+  "platform": {
+    "system": "Linux",
+    "release": "6.6.87.2-microsoft-standard-WSL2",
+    "python": "3.10.12",
+    "pyside6": "6.11.1",
+    "xa11y": "0.11.0"
+  },
+  "tables": [
+    {
+      "name": "QTableWidget example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableWidget example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "/org/a11y/atspi/accessible/2147483650",
+        "bounds": {
+          "x": 22,
+          "y": 81,
+          "width": 858,
+          "height": 226
+        },
+        "actions": [],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": true,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "atspi_role": "table",
+          "object_path": "/org/a11y/atspi/accessible/2147483650",
+          "atspi_name": "QTableWidget example",
+          "bus_name": ":1.1",
+          "atspi_description": "A populated native Qt table used to compare xa11y role classification."
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483658",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "panel",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483658"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Name",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483659",
+            "bounds": {
+              "x": 69,
+              "y": 82,
+              "width": 93,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Name",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483659",
+              "atspi_role": "column header"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Value",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483660",
+            "bounds": {
+              "x": 162,
+              "y": 82,
+              "width": 66,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483660",
+              "atspi_name": "Value",
+              "bus_name": ":1.1",
+              "atspi_role": "column header"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Notes",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483661",
+            "bounds": {
+              "x": 228,
+              "y": 82,
+              "width": 119,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "column header",
+              "object_path": "/org/a11y/atspi/accessible/2147483661",
+              "atspi_name": "Notes",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 0",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483662",
+            "bounds": {
+              "x": 23,
+              "y": 100,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483662",
+              "atspi_name": "Row 0",
+              "bus_name": ":1.1",
+              "atspi_role": "row header"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483663",
+            "bounds": {
+              "x": 69,
+              "y": 100,
+              "width": 92,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "atspi_name": "W0C0: Alpha",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483663"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483664",
+            "bounds": {
+              "x": 162,
+              "y": 100,
+              "width": 65,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "atspi_name": "W0C1: 10",
+              "object_path": "/org/a11y/atspi/accessible/2147483664"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483665",
+            "bounds": {
+              "x": 228,
+              "y": 100,
+              "width": 118,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483665",
+              "atspi_name": "W0C2: first row",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 1",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483666",
+            "bounds": {
+              "x": 23,
+              "y": 130,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "row header",
+              "object_path": "/org/a11y/atspi/accessible/2147483666",
+              "bus_name": ":1.1",
+              "atspi_name": "Row 1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483667",
+            "bounds": {
+              "x": 69,
+              "y": 130,
+              "width": 92,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_name": "W1C0: Bravo",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483667"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483668",
+            "bounds": {
+              "x": 162,
+              "y": 130,
+              "width": 65,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483668",
+              "atspi_name": "W1C1: 20"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483669",
+            "bounds": {
+              "x": 228,
+              "y": 130,
+              "width": 118,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "W1C2: second row",
+              "object_path": "/org/a11y/atspi/accessible/2147483669",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 2",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483670",
+            "bounds": {
+              "x": 23,
+              "y": 160,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 2",
+              "bus_name": ":1.1",
+              "atspi_role": "row header",
+              "object_path": "/org/a11y/atspi/accessible/2147483670"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483671",
+            "bounds": {
+              "x": 69,
+              "y": 160,
+              "width": 92,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "atspi_name": "W2C0: Charlie",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483671"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483672",
+            "bounds": {
+              "x": 162,
+              "y": 160,
+              "width": 65,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483672",
+              "bus_name": ":1.1",
+              "atspi_name": "W2C1: 30"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483673",
+            "bounds": {
+              "x": 228,
+              "y": 160,
+              "width": 118,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483673",
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "atspi_name": "W2C2: third row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 3",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483674",
+            "bounds": {
+              "x": 23,
+              "y": 190,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 3",
+              "object_path": "/org/a11y/atspi/accessible/2147483674",
+              "bus_name": ":1.1",
+              "atspi_role": "row header"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483675",
+            "bounds": {
+              "x": 69,
+              "y": 190,
+              "width": 92,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483675",
+              "atspi_role": "cell",
+              "atspi_name": "W3C0: Delta"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483676",
+            "bounds": {
+              "x": 162,
+              "y": 190,
+              "width": 65,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483676",
+              "atspi_name": "W3C1: 40",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483677",
+            "bounds": {
+              "x": 228,
+              "y": 190,
+              "width": 118,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "W3C2: fourth row",
+              "object_path": "/org/a11y/atspi/accessible/2147483677",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 4",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483678",
+            "bounds": {
+              "x": 23,
+              "y": 220,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 4",
+              "atspi_role": "row header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483678"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483679",
+            "bounds": {
+              "x": 69,
+              "y": 220,
+              "width": 92,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "W4C0: Echo",
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483679"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483680",
+            "bounds": {
+              "x": 162,
+              "y": 220,
+              "width": 65,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483680",
+              "atspi_name": "W4C1: 50"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "W4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483681",
+            "bounds": {
+              "x": 228,
+              "y": 220,
+              "width": 118,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483681",
+              "bus_name": ":1.1",
+              "atspi_name": "W4C2: fifth row"
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 24
+      }
+    },
+    {
+      "name": "QTableView example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableView example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "/org/a11y/atspi/accessible/2147483656",
+        "bounds": {
+          "x": 22,
+          "y": 354,
+          "width": 858,
+          "height": 225
+        },
+        "actions": [],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "bus_name": ":1.1",
+          "object_path": "/org/a11y/atspi/accessible/2147483656",
+          "atspi_description": "A populated native Qt table used to compare xa11y role classification.",
+          "atspi_role": "table",
+          "atspi_name": "QTableView example"
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483706",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "panel",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483706"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Name",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483707",
+            "bounds": {
+              "x": 69,
+              "y": 355,
+              "width": 89,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "column header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483707",
+              "atspi_name": "Name"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Value",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483708",
+            "bounds": {
+              "x": 158,
+              "y": 355,
+              "width": 62,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "column header",
+              "object_path": "/org/a11y/atspi/accessible/2147483708",
+              "atspi_name": "Value",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Notes",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483709",
+            "bounds": {
+              "x": 220,
+              "y": 355,
+              "width": 116,
+              "height": 18
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "column header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483709",
+              "atspi_name": "Notes"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 0",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483710",
+            "bounds": {
+              "x": 23,
+              "y": 373,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483710",
+              "atspi_role": "row header",
+              "bus_name": ":1.1",
+              "atspi_name": "Row 0"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483711",
+            "bounds": {
+              "x": 69,
+              "y": 373,
+              "width": 88,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483711",
+              "bus_name": ":1.1",
+              "atspi_name": "V0C0: Alpha",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483712",
+            "bounds": {
+              "x": 158,
+              "y": 373,
+              "width": 61,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483712",
+              "atspi_name": "V0C1: 10"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483713",
+            "bounds": {
+              "x": 220,
+              "y": 373,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "V0C2: first row",
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483713"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 1",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483714",
+            "bounds": {
+              "x": 23,
+              "y": 403,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483714",
+              "bus_name": ":1.1",
+              "atspi_name": "Row 1",
+              "atspi_role": "row header"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483715",
+            "bounds": {
+              "x": 69,
+              "y": 403,
+              "width": 88,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "V1C0: Bravo",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483715",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483716",
+            "bounds": {
+              "x": 158,
+              "y": 403,
+              "width": 61,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_name": "V1C1: 20",
+              "object_path": "/org/a11y/atspi/accessible/2147483716",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483717",
+            "bounds": {
+              "x": 220,
+              "y": 403,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483717",
+              "atspi_name": "V1C2: second row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 2",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483718",
+            "bounds": {
+              "x": 23,
+              "y": 433,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 2",
+              "object_path": "/org/a11y/atspi/accessible/2147483718",
+              "atspi_role": "row header",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483719",
+            "bounds": {
+              "x": 69,
+              "y": 433,
+              "width": 88,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483719",
+              "atspi_name": "V2C0: Charlie"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483720",
+            "bounds": {
+              "x": 158,
+              "y": 433,
+              "width": 61,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483720",
+              "atspi_name": "V2C1: 30"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483721",
+            "bounds": {
+              "x": 220,
+              "y": 433,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "V2C2: third row",
+              "object_path": "/org/a11y/atspi/accessible/2147483721",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 3",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483722",
+            "bounds": {
+              "x": 23,
+              "y": 463,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_name": "Row 3",
+              "atspi_role": "row header",
+              "object_path": "/org/a11y/atspi/accessible/2147483722"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483723",
+            "bounds": {
+              "x": 69,
+              "y": 463,
+              "width": 88,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483723",
+              "atspi_name": "V3C0: Delta",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483724",
+            "bounds": {
+              "x": 158,
+              "y": 463,
+              "width": 61,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483724",
+              "bus_name": ":1.1",
+              "atspi_name": "V3C1: 40",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483725",
+            "bounds": {
+              "x": 220,
+              "y": 463,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483725",
+              "atspi_name": "V3C2: fourth row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 4",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483726",
+            "bounds": {
+              "x": 23,
+              "y": 493,
+              "width": 46,
+              "height": 30
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "row header",
+              "atspi_name": "Row 4",
+              "object_path": "/org/a11y/atspi/accessible/2147483726",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483727",
+            "bounds": {
+              "x": 69,
+              "y": 493,
+              "width": 88,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "atspi_name": "V4C0: Echo",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483727"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483728",
+            "bounds": {
+              "x": 158,
+              "y": 493,
+              "width": 61,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483728",
+              "atspi_name": "V4C1: 50",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "V4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483729",
+            "bounds": {
+              "x": 220,
+              "y": 493,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483729",
+              "atspi_role": "cell",
+              "atspi_name": "V4C2: fifth row"
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 24
+      }
+    },
+    {
+      "name": "QTableView no headers",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_cell": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [],
+      "found_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "missing_headers": [],
+      "unexpected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "misclassified_cells": [],
+      "tree": {
+        "role": "table",
+        "name": "QTableView no headers",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "/org/a11y/atspi/accessible/2147483657",
+        "bounds": {
+          "x": 22,
+          "y": 626,
+          "width": 858,
+          "height": 226
+        },
+        "actions": [],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "atspi_role": "table",
+          "atspi_name": "QTableView no headers",
+          "bus_name": ":1.1",
+          "object_path": "/org/a11y/atspi/accessible/2147483657",
+          "atspi_description": "A populated native Qt table used to compare xa11y role classification."
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483682",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483682",
+              "atspi_role": "panel",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Name",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483683",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Name",
+              "atspi_role": "column header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483683"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Value",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483684",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "column header",
+              "atspi_name": "Value",
+              "object_path": "/org/a11y/atspi/accessible/2147483684"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Notes",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483685",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "column header",
+              "bus_name": ":1.1",
+              "atspi_name": "Notes",
+              "object_path": "/org/a11y/atspi/accessible/2147483685"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 0",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483686",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "row header",
+              "object_path": "/org/a11y/atspi/accessible/2147483686",
+              "atspi_name": "Row 0",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483687",
+            "bounds": {
+              "x": 23,
+              "y": 627,
+              "width": 89,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483687",
+              "atspi_role": "cell",
+              "atspi_name": "N0C0: Alpha",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483688",
+            "bounds": {
+              "x": 113,
+              "y": 627,
+              "width": 62,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_name": "N0C1: 10",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483688"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483689",
+            "bounds": {
+              "x": 176,
+              "y": 627,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483689",
+              "atspi_name": "N0C2: first row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 1",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483690",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 1",
+              "atspi_role": "row header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483690"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483691",
+            "bounds": {
+              "x": 23,
+              "y": 657,
+              "width": 89,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "N1C0: Bravo",
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483691"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483692",
+            "bounds": {
+              "x": 113,
+              "y": 657,
+              "width": 62,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "N1C1: 20",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483692",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483693",
+            "bounds": {
+              "x": 176,
+              "y": 657,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483693",
+              "atspi_name": "N1C2: second row",
+              "atspi_role": "cell",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 2",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483694",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_name": "Row 2",
+              "atspi_role": "row header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483694"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483695",
+            "bounds": {
+              "x": 23,
+              "y": 687,
+              "width": 89,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "N2C0: Charlie",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483695",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483696",
+            "bounds": {
+              "x": 113,
+              "y": 687,
+              "width": 62,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483696",
+              "atspi_name": "N2C1: 30"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483697",
+            "bounds": {
+              "x": 176,
+              "y": 687,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "atspi_name": "N2C2: third row",
+              "object_path": "/org/a11y/atspi/accessible/2147483697"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 3",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483698",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "atspi_role": "row header",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483698",
+              "atspi_name": "Row 3"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483699",
+            "bounds": {
+              "x": 23,
+              "y": 717,
+              "width": 89,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483699",
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "atspi_name": "N3C0: Delta"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483700",
+            "bounds": {
+              "x": 113,
+              "y": 717,
+              "width": 62,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "atspi_role": "cell",
+              "object_path": "/org/a11y/atspi/accessible/2147483700",
+              "atspi_name": "N3C1: 40"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483701",
+            "bounds": {
+              "x": 176,
+              "y": 717,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483701",
+              "atspi_name": "N3C2: fourth row",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "Row 4",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483702",
+            "bounds": null,
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": false,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "object_path": "/org/a11y/atspi/accessible/2147483702",
+              "atspi_role": "row header",
+              "atspi_name": "Row 4",
+              "bus_name": ":1.1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483703",
+            "bounds": {
+              "x": 23,
+              "y": 747,
+              "width": 89,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_name": "N4C0: Echo",
+              "object_path": "/org/a11y/atspi/accessible/2147483703",
+              "bus_name": ":1.1",
+              "atspi_role": "cell"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483704",
+            "bounds": {
+              "x": 113,
+              "y": 747,
+              "width": 62,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "atspi_name": "N4C1: 50",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483704"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_cell",
+            "name": "N4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "/org/a11y/atspi/accessible/2147483705",
+            "bounds": {
+              "x": 176,
+              "y": 747,
+              "width": 115,
+              "height": 29
+            },
+            "actions": [],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "atspi_role": "cell",
+              "bus_name": ":1.1",
+              "object_path": "/org/a11y/atspi/accessible/2147483705",
+              "atspi_name": "N4C2: fifth row"
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 24
+      }
+    }
+  ],
+  "failures": []
+}

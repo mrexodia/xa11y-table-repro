@@ -1,0 +1,2658 @@
+{
+  "platform": {
+    "system": "Windows",
+    "release": "10",
+    "python": "3.12.11",
+    "pyside6": "6.11.1",
+    "xa11y": "0.11.0"
+  },
+  "tables": [
+    {
+      "name": "QTableWidget example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_row": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [
+        {
+          "name": "W0C0: Alpha",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029,
+            "uia_name": "W0C0: Alpha"
+          }
+        },
+        {
+          "name": "W0C1: 10",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "W0C1: 10",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "W0C2: first row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W0C2: first row"
+          }
+        },
+        {
+          "name": "W1C0: Bravo",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W1C0: Bravo"
+          }
+        },
+        {
+          "name": "W1C1: 20",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W1C1: 20",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "W1C2: second row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "uia_name": "W1C2: second row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+          }
+        },
+        {
+          "name": "W2C0: Charlie",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029,
+            "uia_name": "W2C0: Charlie"
+          }
+        },
+        {
+          "name": "W2C1: 30",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W2C1: 30"
+          }
+        },
+        {
+          "name": "W2C2: third row",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029,
+            "uia_name": "W2C2: third row"
+          }
+        },
+        {
+          "name": "W3C0: Delta",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W3C0: Delta"
+          }
+        },
+        {
+          "name": "W3C1: 40",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W3C1: 40"
+          }
+        },
+        {
+          "name": "W3C2: fourth row",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "W3C2: fourth row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "W4C0: Echo",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "W4C0: Echo",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "W4C1: 50",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "uia_name": "W4C1: 50",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "W4C2: fifth row",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "W4C2: fifth row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "control_type_id": 50029
+          }
+        }
+      ],
+      "tree": {
+        "role": "table",
+        "name": "QTableWidget example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+        "bounds": {
+          "x": 529,
+          "y": 142,
+          "width": 862,
+          "height": 230
+        },
+        "actions": [
+          "press",
+          "set_value",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": true,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+          "control_type_id": 50036,
+          "class_name": "QTableWidget",
+          "uia_name": "QTableWidget example",
+          "uia_help_text": "A populated native Qt table used to compare xa11y role classification."
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": null,
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50033,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Name",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 143,
+              "width": 81,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Name"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Value",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 143,
+              "width": 56,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Value"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Notes",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 143,
+              "width": 105,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Notes"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 0",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 530,
+              "y": 167,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Row 0"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 167,
+              "width": 80,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029,
+              "uia_name": "W0C0: Alpha"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 167,
+              "width": 55,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "W0C1: 10",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 167,
+              "width": 104,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W0C2: first row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 1",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 530,
+              "y": 197,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Row 1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 197,
+              "width": 80,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W1C0: Bravo"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 197,
+              "width": 55,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W1C1: 20",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 197,
+              "width": 104,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "uia_name": "W1C2: second row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 2",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 530,
+              "y": 227,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "uia_name": "Row 2",
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 227,
+              "width": 80,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029,
+              "uia_name": "W2C0: Charlie"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 227,
+              "width": 55,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W2C1: 30"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 227,
+              "width": 104,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029,
+              "uia_name": "W2C2: third row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 3",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 530,
+              "y": 257,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "uia_name": "Row 3",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 257,
+              "width": 80,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W3C0: Delta"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 257,
+              "width": 55,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W3C1: 40"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 257,
+              "width": 104,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "W3C2: fourth row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 4",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 530,
+              "y": 287,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "Row 4",
+              "control_type_id": 50034
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 573,
+              "y": 287,
+              "width": 80,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "W4C0: Echo",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 654,
+              "y": 287,
+              "width": 55,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "uia_name": "W4C1: 50",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "W4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+            "bounds": {
+              "x": 710,
+              "y": 287,
+              "width": 104,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "W4C2: fifth row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableWidget",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 24
+      }
+    },
+    {
+      "name": "QTableView example",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_row": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "found_headers": [
+        "Name",
+        "Value",
+        "Notes"
+      ],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [
+        {
+          "name": "V0C0: Alpha",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029,
+            "uia_name": "V0C0: Alpha"
+          }
+        },
+        {
+          "name": "V0C1: 10",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029,
+            "uia_name": "V0C1: 10"
+          }
+        },
+        {
+          "name": "V0C2: first row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "uia_name": "V0C2: first row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "V1C0: Bravo",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V1C0: Bravo"
+          }
+        },
+        {
+          "name": "V1C1: 20",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V1C1: 20"
+          }
+        },
+        {
+          "name": "V1C2: second row",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V1C2: second row",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "V2C0: Charlie",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "V2C0: Charlie",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "V2C1: 30",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029,
+            "uia_name": "V2C1: 30"
+          }
+        },
+        {
+          "name": "V2C2: third row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V2C2: third row"
+          }
+        },
+        {
+          "name": "V3C0: Delta",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V3C0: Delta"
+          }
+        },
+        {
+          "name": "V3C1: 40",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "V3C1: 40",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "V3C2: fourth row",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "V3C2: fourth row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "V4C0: Echo",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "V4C0: Echo",
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "V4C1: 50",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "V4C1: 50",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "V4C2: fifth row",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "V4C2: fifth row",
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        }
+      ],
+      "tree": {
+        "role": "table",
+        "name": "QTableView example",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+        "bounds": {
+          "x": 529,
+          "y": 414,
+          "width": 862,
+          "height": 230
+        },
+        "actions": [
+          "press",
+          "set_value",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "uia_help_text": "A populated native Qt table used to compare xa11y role classification.",
+          "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+          "control_type_id": 50036,
+          "class_name": "QTableView",
+          "uia_name": "QTableView example"
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": null,
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50033,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Name",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 415,
+              "width": 77,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "Name"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Value",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 415,
+              "width": 52,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50034,
+              "uia_name": "Value"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Notes",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 415,
+              "width": 101,
+              "height": 24
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "uia_name": "Notes",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 0",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 439,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50034,
+              "uia_name": "Row 0"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 439,
+              "width": 76,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029,
+              "uia_name": "V0C0: Alpha"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 439,
+              "width": 51,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029,
+              "uia_name": "V0C1: 10"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 439,
+              "width": 100,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "uia_name": "V0C2: first row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 1",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 469,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "Row 1"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 469,
+              "width": 76,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V1C0: Bravo"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 469,
+              "width": 51,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V1C1: 20"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 469,
+              "width": 100,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V1C2: second row",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 2",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 499,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "uia_name": "Row 2",
+              "control_type_id": 50034,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 499,
+              "width": 76,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "V2C0: Charlie",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 499,
+              "width": 51,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029,
+              "uia_name": "V2C1: 30"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 499,
+              "width": 100,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V2C2: third row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 3",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 529,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "uia_name": "Row 3",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50034
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 529,
+              "width": 76,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V3C0: Delta"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 529,
+              "width": 51,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "V3C1: 40",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 529,
+              "width": 100,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "V3C2: fourth row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "group",
+            "name": "Row 4",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 559,
+              "width": 43,
+              "height": 30
+            },
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "uia_name": "Row 4",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50034
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 573,
+              "y": 559,
+              "width": 76,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "V4C0: Echo",
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 650,
+              "y": 559,
+              "width": 51,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "V4C1: 50",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "V4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 702,
+              "y": 559,
+              "width": 100,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "V4C2: fifth row",
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 24
+      }
+    },
+    {
+      "name": "QTableView no headers",
+      "expected_cell_count": 15,
+      "found_cell_count": 15,
+      "known_cell_role_counts": {
+        "table_row": 15
+      },
+      "missing_cells": [],
+      "expected_headers": [],
+      "found_headers": [],
+      "missing_headers": [],
+      "unexpected_headers": [],
+      "misclassified_cells": [
+        {
+          "name": "N0C0: Alpha",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "N0C0: Alpha",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "N0C1: 10",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "N0C1: 10",
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N0C2: first row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "uia_name": "N0C2: first row",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N1C0: Bravo",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "N1C0: Bravo",
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N1C1: 20",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N1C1: 20",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "N1C2: second row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N1C2: second row"
+          }
+        },
+        {
+          "name": "N2C0: Charlie",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N2C0: Charlie"
+          }
+        },
+        {
+          "name": "N2C1: 30",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "uia_name": "N2C1: 30",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N2C2: third row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N2C2: third row"
+          }
+        },
+        {
+          "name": "N3C0: Delta",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "N3C0: Delta",
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N3C1: 40",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "uia_name": "N3C1: 40",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+          }
+        },
+        {
+          "name": "N3C2: fourth row",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N3C2: fourth row"
+          }
+        },
+        {
+          "name": "N4C0: Echo",
+          "role": "table_row",
+          "raw": {
+            "control_type_id": 50029,
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N4C0: Echo"
+          }
+        },
+        {
+          "name": "N4C1: 50",
+          "role": "table_row",
+          "raw": {
+            "uia_name": "N4C1: 50",
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "control_type_id": 50029
+          }
+        },
+        {
+          "name": "N4C2: fifth row",
+          "role": "table_row",
+          "raw": {
+            "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "uia_name": "N4C2: fifth row",
+            "control_type_id": 50029
+          }
+        }
+      ],
+      "tree": {
+        "role": "table",
+        "name": "QTableView no headers",
+        "value": null,
+        "description": "A populated native Qt table used to compare xa11y role classification.",
+        "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+        "bounds": {
+          "x": 529,
+          "y": 686,
+          "width": 862,
+          "height": 230
+        },
+        "actions": [
+          "press",
+          "set_value",
+          "focus"
+        ],
+        "states": {
+          "enabled": true,
+          "visible": true,
+          "focused": false,
+          "selected": false,
+          "focusable": true
+        },
+        "raw": {
+          "uia_name": "QTableView no headers",
+          "control_type_id": 50036,
+          "class_name": "QTableView",
+          "uia_help_text": "A populated native Qt table used to compare xa11y role classification.",
+          "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+        },
+        "children": [
+          {
+            "role": "group",
+            "name": null,
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": null,
+            "actions": [
+              "set_value",
+              "press",
+              "select"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": false
+            },
+            "raw": {
+              "control_type_id": 50033,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N0C0: Alpha",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 687,
+              "width": 78,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": true,
+              "selected": true,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "N0C0: Alpha",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N0C1: 10",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 609,
+              "y": 687,
+              "width": 53,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "N0C1: 10",
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N0C2: first row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 663,
+              "y": 687,
+              "width": 102,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "uia_name": "N0C2: first row",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N1C0: Bravo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 717,
+              "width": 78,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "N1C0: Bravo",
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N1C1: 20",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 609,
+              "y": 717,
+              "width": 53,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N1C1: 20",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N1C2: second row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 663,
+              "y": 717,
+              "width": 102,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N1C2: second row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N2C0: Charlie",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 747,
+              "width": 78,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N2C0: Charlie"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N2C1: 30",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 609,
+              "y": 747,
+              "width": 53,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "uia_name": "N2C1: 30",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N2C2: third row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 663,
+              "y": 747,
+              "width": 102,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N2C2: third row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N3C0: Delta",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 777,
+              "width": 78,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "N3C0: Delta",
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N3C1: 40",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 609,
+              "y": 777,
+              "width": 53,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "uia_name": "N3C1: 40",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N3C2: fourth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 663,
+              "y": 777,
+              "width": 102,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N3C2: fourth row"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N4C0: Echo",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 530,
+              "y": 807,
+              "width": 78,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "control_type_id": 50029,
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N4C0: Echo"
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N4C1: 50",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 609,
+              "y": 807,
+              "width": 53,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "uia_name": "N4C1: 50",
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          },
+          {
+            "role": "table_row",
+            "name": "N4C2: fifth row",
+            "value": null,
+            "description": null,
+            "stable_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+            "bounds": {
+              "x": 663,
+              "y": 807,
+              "width": 102,
+              "height": 29
+            },
+            "actions": [
+              "press",
+              "set_value",
+              "select",
+              "focus"
+            ],
+            "states": {
+              "enabled": true,
+              "visible": true,
+              "focused": false,
+              "selected": false,
+              "focusable": true
+            },
+            "raw": {
+              "automation_id": "QApplication.MainWindow.QWidget.QGroupBox.QTableView",
+              "uia_name": "N4C2: fifth row",
+              "control_type_id": 50029
+            },
+            "children": [],
+            "child_count": 0
+          }
+        ],
+        "child_count": 16
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,10 @@
+application "xa11y-table-reproducer"
+  window "xa11y Qt Table Reproducer"
+    group
+      static_text "All controls use Qt's built-in accessibility implementation. Each data item below is a table cell, not a row container."
+      group "QTableWidget"
+        table "QTableWidget example"
+      group "QTableView + QStandardItemModel"
+        table "QTableView example"
+      group "QTableView with visual headers hidden"
+        table "QTableView no headers"
